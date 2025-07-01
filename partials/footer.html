@@ -1,0 +1,31 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Koffeenest</a>
+        <p class="copyright">&copy; <span id="year"></span> Koffeenest. All rights reserved.</p>
+      </div>
+      
+      <div class="footer-social">
+        <ul>
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+          <li><a href="#" aria-label="Twitter">Twitter</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact">
+        <address>
+          <p>123 Coffee Lane</p>
+          <p>Portland, OR 97204</p>
+          <p><a href="mailto:hello@koffeenest.com">hello@koffeenest.com</a></p>
+        </address>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
