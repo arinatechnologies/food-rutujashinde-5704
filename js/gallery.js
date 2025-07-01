@@ -1,0 +1,22 @@
+[
+  "artisan sourdough bread close-up with flour dusting",
+  "modern dessert plating with gold leaf and berry coulis",
+  "handcrafted chocolate truffles assortment",
+  "sushi platter with fresh wasabi and ginger",
+  "molecular gastronomy sphere on spoon",
+  "rustic Italian pasta with fresh herbs",
+  "vegan cheese board with fruit accompaniments",
+  "deconstructed lemon meringue pie",
+  "smoked salmon brunch platter presentation",
+  "tropical fruit carving art display",
+  "signature cocktail with edible flower garnish",
+  "farm-to-table vegetable medley close-up",
+  "French macaron tower in pastel colors",
+  "dry-aged steak with compound butter",
+  "artisan coffee latte with intricate foam art",
+  "seasonal heirloom tomato salad",
+  "hand-pulled noodles in artisan bowl",
+  "petit fours assortment on slate",
+  "organic grain bowl with edible flowers",
+  "sous-vide duck breast with cherry reduction"
+]
