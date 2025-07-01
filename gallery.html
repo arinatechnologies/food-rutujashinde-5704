@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+            <html lang="en">
+            <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Koffeenest | Gallery</title>
+            <link rel="stylesheet" href="css/base.css" />
+            <link rel="stylesheet" href="css/gallery.css" />
+            </head>
+            <body>
+            <header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">Koffeenest</a>
+    
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+            <main class="gallery-page">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Culinary Showcase</h1>
+      <p class="subhead">Explore our collection of exquisite food creations that blend artistry with flavor</p>
+    </div>
+  </section>
+
+  <!-- Filter Buttons -->
+  <section class="filter-section">
+    <div class="filter-container">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="pastry">Pastry Arts</button>
+      <button class="filter-btn" data-category="plating">Artistic Plating</button>
+      <button class="filter-btn" data-category="fusion">Fusion Creations</button>
+      <button class="filter-btn" data-category="seasonal">Seasonal Specials</button>
+      <button class="filter-btn" data-category="molecular">Molecular Gastronomy</button>
+    </div>
+  </section>
+
+  <!-- Masonry Grid -->
+  <section class="gallery-grid">
+    <div class="grid-container">
+      <!-- Item 1 -->
+      <a href="#modal-1" class="gallery-item" data-category="pastry">
+        <img src="images/gallery1.jpg" alt="French patisserie assortment">
+        <div class="item-overlay">
+          <h3>Patisserie Collection</h3>
+          <p>Handcrafted French pastries with modern twist</p>
+        </div>
+      </a>
+      
+      <!-- Item 2 -->
+      <a href="#modal-2" class="gallery-item" data-category="plating">
+        <img src="images/gallery2.jpg" alt="Modern plating technique">
+        <div class="item-overlay">
+          <h3>Contemporary Plating</h3>
+          <p>Geometric food arrangement with edible flowers</p>
+        </div>
+      </a>
+      
+      <!-- 10 more items following same pattern with different categories -->
+      <!-- Item 3-12 would be here in production -->
+    </div>
+  </section>
+
+  <!-- Load More Button -->
+  <div class="load-more-container">
+    <button class="load-more-btn">Load More</button>
+  </div>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>Trusted by Culinary Professionals</h2>
+    <div class="client-logos">
+      <i class="ph ph-chef-hat"></i>
+      <i class="ph ph-wine"></i>
+      <i class="ph ph-cooking-pot"></i>
+      <i class="ph ph-leaf"></i>
+    </div>
+    <div class="testimonial-cards">
+      <div class="testimonial">
+        <p>"Koffeenest transformed our dessert menu into works of art that doubled sales."</p>
+        <p class="author">— Executive Chef, Michelin Star Restaurant</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <h2>Ready to Elevate Your Culinary Presentation?</h2>
+    <p>Contact us to discuss custom food styling for your restaurant or event</p>
+    <button class="cta-btn">Get a Quote</button>
+  </section>
+
+  <!-- Modals (hidden by default) -->
+  <div id="modal-1" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <img src="images/gallery1.jpg" alt="Detailed view">
+      <div class="modal-text">
+        <h3>Patisserie Collection</h3>
+        <p>This collection features twelve varieties of French pastries reimagined with contemporary techniques. Each piece is handcrafted using organic ingredients and edible gold leaf accents.</p>
+        <ul class="modal-details">
+          <li><strong>Techniques:</strong> Lamination, Glazing, Airbrushing</li>
+          <li><strong>Ingredients:</strong> Organic flour, French butter, Madagascar vanilla</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/gallery.css">
+<script src="js/base.js"></script>
+<script src="js/gallery.js"></script>
+
+            <footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Koffeenest</a>
+        <p class="copyright">&copy; <span id="year"></span> Koffeenest. All rights reserved.</p>
+      </div>
+      
+      <div class="footer-social">
+        <ul>
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+          <li><a href="#" aria-label="Twitter">Twitter</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact">
+        <address>
+          <p>123 Coffee Lane</p>
+          <p>Portland, OR 97204</p>
+          <p><a href="mailto:hello@koffeenest.com">hello@koffeenest.com</a></p>
+        </address>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+            <script src="js/base.js"></script>
+            <script src="js/gallery.js"></script>
+            </body>
+            </html>
+            
